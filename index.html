@@ -2,10 +2,96 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>صفحتي الأولى</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الملف الشخصي | @aleebee00</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>مرحباً بالعالم!</h1>
-    <p>هذه أول صفحة ويب أقوم بإنشائها.</p>
+
+    <div class="abstract-bg"></div>
+
+    <div class="container">
+        <nav class="navbar glass">
+            <div class="nav-links">
+                <a href="#">الرئيسية</a>
+                <a href="#">عني</a>
+                <a href="#">اليوميات</a>
+                <a href="#">الأصدقاء</a>
+            </div>
+        </nav>
+
+        <header class="profile-header">
+            <div class="avatar-wrapper">
+                <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
+            </div>
+            <div class="profile-info">
+                <span class="username">@aleebee00</span>
+                <h1 class="welcome-msg">مرحباً بكم في عالم aleebee00!</h1>
+            </div>
+        </header>
+
+        <section class="stats-bar glass">
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <span>تجارب مشتركة: 250</span>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-laugh-squint"></i>
+                <span>لحظات مضحكة: 112</span>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-lightbulb"></i>
+                <span>مشاريع قادمة: 7</span>
+            </div>
+        </section>
+
+        <main class="content-grid">
+            <div class="card glass">
+                <h3>قصصنا</h3>
+                <div class="video-placeholder">
+                    <i class="fas fa-play"></i>
+                </div>
+                <p>أحدث مغامرة نهاية الأسبوع - شاهد الآن</p>
+            </div>
+
+            <div class="card glass">
+                <h3>الاستوديو الخاص</h3>
+                <div class="gallery-grid">
+                    <div class="big-img"></div>
+                    <div class="small-img"></div>
+                    <div class="small-img"></div>
+                </div>
+                <button class="btn-glass">تصفح الألبوم</button>
+            </div>
+
+            <div class="card glass">
+                <h3>صندوق الأفكار</h3>
+                <textarea placeholder="اكتب فكرتك هنا..." class="input-glass"></textarea>
+                <button class="btn-glass">شارك فكرة</button>
+            </div>
+
+            <div class="card glass">
+                <h3>تحديات الأسبوع</h3>
+                <ul class="challenge-list">
+                    <li><img src="https://via.placeholder.com/30" class="mini-avatar"> أفضل ميم 🏆 500</li>
+                    <li><img src="https://via.placeholder.com/30" class="mini-avatar"> أسرع رد 🥈 300</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer-nav">
+            <div class="social-main glass">
+                <i class="fab fa-tiktok"></i> تابعوني أيضاً على @aleebee00
+            </div>
+            <div class="social-icons">
+                <div class="icon-square glass"><i class="fab fa-facebook-f"></i></div>
+                <div class="icon-square glass"><i class="fab fa-instagram"></i></div>
+                <div class="icon-square glass"><i class="fab fa-snapchat-ghost"></i></div>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>
